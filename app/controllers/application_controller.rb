@@ -46,7 +46,7 @@ end
 		if logged_in?
 			erb :success
 		else
-			redirect "/success"
+			redirect "/login"
 		end
 	end
 
